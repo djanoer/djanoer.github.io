@@ -11,12 +11,18 @@
     <!-- Bootstrap Icons -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" />
 
+    <!-- Animate CSS CDN -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+
     <!-- Fontawesome Icons -->
     <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" /> -->
-    <link rel="stylesheet" href="./icons/css/all.css" />
+    <link rel="stylesheet" href="assets/icons/css/all.css" />
 
     <!-- My CSS -->
-    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="assets/css/style.css" />
 
     <title>Portfolio | David Kurniawan</title>
   </head>
@@ -54,7 +60,7 @@
     <!-- Start Jumbotron -->
     <section class="jumbotron text-center">
       <div>
-      <img src="./img/photo.jpg" alt="David Kurniawan" width="200" class="rounded-circle img-thumbnail" />
+      <img src="assets/img/photo.jpg" alt="David Kurniawan" width="200" class="rounded-circle img-thumbnail" />
       <h1 class="display-4">David Kurniawan</h1>
       <p class="lead">Web Development | Cybersecurity Enthusiast</p>
     </div>
@@ -163,34 +169,42 @@
         </div>
         <div class="row justify-content-center my-5">
           <div class="col-md-4 mb-3">
-            <div class="card">
-              <img src="./img/projects/image1.jpg" class="card-img-top" alt="Project 1" />
+            <div class="card project-container project-card " >
+              <img src="assets/img/projects/image4.jpg" class="card-img-top" alt="Project 1" />
               <div class="card-body">
+              <h4 class="project-title">Project 1</h4>
                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="#" target="_blank" class="project-link">Check it Out</a>
               </div>
             </div>
           </div>
           <div class="col-md-4 mb-3">
-            <div class="card">
-              <img src="./img/projects/image2.jpg" class="card-img-top" alt="Project 1" />
+            <div class="card project-container project-card">
+              <img src="assets/img/projects/image3.jpg" class="card-img-top" alt="Project 1" />
               <div class="card-body">
+                <h4 class="project-title">Project 2</h4>
                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="#" target="_blank" class="project-link">Check it Out</a>
               </div>
             </div>
           </div>
           <div class="col-md-4 mb-3">
-            <div class="card">
-              <img src="./img/projects/image3.jpg" class="card-img-top" alt="Project 1" />
+            <div class="card project-container project-card">
+              <img src="assets/img/projects/image1.jpg" class="card-img-top" alt="Project 1" />
               <div class="card-body">
+                <h4 class="project-title">Project 3</h4>
                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="#" target="_blank" class="project-link">Check it Out</a>
               </div>
             </div>
           </div>
           <div class="col-md-4 mb-3">
-            <div class="card">
-              <img src="./img/projects/image4.jpg" class="card-img-top" alt="Project 1" />
+            <div class="card project-container project-card">
+              <img src="assets/img/projects/image2.jpg" class="card-img-top" alt="Project 1" />
               <div class="card-body">
+                <h4 class="project-title">Project 4</h4>
                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="#" target="_blank" class="project-link">Check it Out</a>
               </div>
             </div>
           </div>
@@ -208,7 +222,7 @@
 
     <!-- Start Contact -->
     <section id="contact">
-      <div class="container">
+      <div class="container pb-5">
         <div class="row text-center mb-3">
           <div class="col">
             <h2>Contact Me</h2>
@@ -243,18 +257,47 @@
           </div>
         </div>
       </div>
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+      <!-- <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
         <path
           fill="#0077B6"
           fill-opacity="1"
           d="M0,224L40,229.3C80,235,160,245,240,218.7C320,192,400,128,480,128C560,128,640,192,720,224C800,256,880,256,960,234.7C1040,213,1120,171,1200,176C1280,181,1360,235,1400,261.3L1440,288L1440,320L1400,320C1360,320,1280,320,1200,320C1120,320,1040,320,960,320C880,320,800,320,720,320C640,320,560,320,480,320C400,320,320,320,240,320C160,320,80,320,40,320L0,320Z"
         ></path>
-      </svg>
+      </svg> -->
     </section>
     <!-- End Contact -->
 
+    <!-- Start Social -->
+    <div class="socials">
+      <a href="#" target="_blank"
+        ><img
+          src="assets/icons/social/icons8-twitter-circled.gif"
+          alt="Twitter"
+          loading="lazy"
+          class="socicon"
+      /></a>
+      <a href="#" target="_blank"
+        ><img
+          src="assets/icons/social/icons8-instagram.gif"
+          alt="Instagram"
+          loading="lazy"
+          class="socicon"
+      /></a>
+      <a href="#" target="_blank"
+        ><img
+          src="assets/icons/social/icons8-linkedin-circled.gif"
+          alt="Linkedin"
+          loading="lazy"
+          class="socicon"
+      /></a>
+      <a href="#" target="_blank"
+        ><img src="assets/icons/social/icons8-github.gif" alt="Github" class="socicon"
+      /></a>
+    </div>
+    <!-- End Social -->
+
     <!-- Start Footer -->
-    <footer class="text-white text-center pb-4" style="background-color: #0077B6">
+    <footer class="text-white text-center pb-3 pt-5">
       <p>Created with <i class="bi bi-suit-heart-fill text-danger"></i> by <a href="#" class="text-white fw-bold">dave_id</a></p>
     </footer>
     <!-- End Footer -->
@@ -263,11 +306,11 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
   
     <!-- fontawesome icons -->
-    <script defer src="./icons/js/all.js"></script>
+    <script defer src="/assets/icons/js/all.js"></script>
 
     <!-- Smooth scroll js source : https://github.com/cferdinandi/smooth-scroll -->
-    <script src="./js/smooth-scroll.polyfills.min.js"></script>
-    <script src="./js/smooth-scroll.polyfills.js"></script>
+    <script src="/assets/js/smooth-scroll.polyfills.min.js"></script>
+    <script src="/assets/js/smooth-scroll.polyfills.js"></script>
     <!-- <script src="./js/smooth-scroll.js"></script> -->
     <script>
       var scroll = new SmoothScroll('a[href*="#"]',

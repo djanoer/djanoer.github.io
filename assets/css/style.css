@@ -1,0 +1,100 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,900;1,700&display=swap");
+
+/* Variables */
+:root {
+  --font-family: "Roboto", sans-serif;
+  --normal-font: 400;
+  --bold-font: 700;
+  --bolder-font: 900;
+  /* --bg-color: #fcfcfc; */
+  --bg-color: #0077B6;
+  --primary-color: #e2edff;
+  --secondary-color: #ffffff;
+  --primary-shadow: #8b8eaf;
+  --secondary-shadow: #a17a69;
+  --bottom-margin: 0.5rem;
+  --bottom-margin-2: 1rem;
+  --line-height: 1.7rem;
+  --transition: 0.3s;
+}
+/* Variables end */
+
+html {
+  scroll-behavior: smooth;
+}
+
+.jumbotron {
+  padding-top: 5rem;
+  background-color: var(--primary-color);
+  /* color: var(--primary-color); */
+  font-family: var(--font-family);
+}
+#about {
+  background-color: var(--secondary-color);
+}
+
+#skills {
+  background-color: var(--primary-color);
+}
+
+#projects {
+  background-color: var(--secondary-color);
+}
+
+.projects-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.project-pic {
+  width: 95%;
+  height: 60%;
+}
+
+.projects-title {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.project-container {
+  text-align: center;
+  width: 21.875rem;
+  padding: 1rem;
+}
+
+.project-card {
+  background-color: #fff;
+  border-radius: 11px;
+  box-shadow: 0 3px 10px var(--primary-shadow);
+  padding: 10px;
+  margin: 5px;
+}
+
+#contact {
+  background-color: var(--primary-color);
+}
+
+section {
+  padding-top: 5rem;
+}
+
+.socials {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  right: 1%;
+  bottom: 50%;
+}
+
+.socicon {
+  width: 2rem;
+  height: 2rem;
+}
+
+footer {
+  background-color: var(--bg-color);
+  padding: 1.25rem;
+  text-align: center;
+  /* margin: 5rem 0 0; */
+}
